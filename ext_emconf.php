@@ -34,6 +34,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'CGLcompliance_note' => '',
 	'constraints' => array(
 		'depends' => array(
+			'typo3' => '6.0.0-6.2.99',
 			'realurl' => '1.0.0-1.99.99',
 		),
 		'conflicts' => array(
